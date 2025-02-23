@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vm;
+    display: flex;
+    
+}
+.Container{
+    padding:40px 40px;
+    background-color: rgb(162, 162, 235);
+    height: 100%;
+    text-align: center;
+    
+}
+img{
+    border-radius: 50%;
+}
+ul li{
+    list-style-type: none;
+    padding: 40px;
+    font-size: 20px;
+}
+a{
+    
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: antiquewhite;
+    
+}
